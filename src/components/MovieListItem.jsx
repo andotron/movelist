@@ -1,6 +1,4 @@
 var MovieListItem = (props) => (
-      <li>{props.movie.title}</li>
+      <div className="movie-name-box">{props.movie.title}</div>
 )
-
-
 export default MovieListItem; 
