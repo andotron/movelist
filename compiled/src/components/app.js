@@ -1,2 +1,11 @@
+import Movielist from "./MovieList.js";
+import movies from "../data/MovieData.js";
 
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VzQ29udGVudCI6W119
+var App = () => React.createElement(
+  "div",
+  null,
+  React.createElement(Movielist, { movie: movies })
+);
+
+export default App;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL0FwcC5qc3giXSwibmFtZXMiOlsiTW92aWVsaXN0IiwibW92aWVzIiwiQXBwIl0sIm1hcHBpbmdzIjoiQUFBQSxPQUFPQSxTQUFQLE1BQXNCLGdCQUF0QjtBQUNBLE9BQU9DLE1BQVAsTUFBbUIsc0JBQW5COztBQUVBLElBQUlDLE1BQU0sTUFDSjtBQUFBO0FBQUE7QUFDRSxzQkFBQyxTQUFELElBQVcsT0FBT0QsTUFBbEI7QUFERixDQUROOztBQVFBLGVBQWVDLEdBQWYiLCJmaWxlIjoiQXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE1vdmllbGlzdCBmcm9tIFwiLi9Nb3ZpZUxpc3QuanNcIjtcbmltcG9ydCBtb3ZpZXMgZnJvbSBcIi4uL2RhdGEvTW92aWVEYXRhLmpzXCI7XG5cbnZhciBBcHAgPSAoKSA9PiAoXG4gICAgICA8ZGl2PlxuICAgICAgICA8TW92aWVsaXN0IG1vdmllPXttb3ZpZXN9Lz5cbiAgICAgIDwvZGl2PlxuIFxuKVxuXG5cbmV4cG9ydCBkZWZhdWx0IEFwcDsiXX0=

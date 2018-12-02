@@ -1,0 +1,8 @@
+var MovieListItem = props => React.createElement(
+      "li",
+      null,
+      props.movie.title
+);
+
+export default MovieListItem;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL01vdmllTGlzdEl0ZW0uanN4Il0sIm5hbWVzIjpbIk1vdmllTGlzdEl0ZW0iLCJwcm9wcyIsIm1vdmllIiwidGl0bGUiXSwibWFwcGluZ3MiOiJBQUFBLElBQUlBLGdCQUFpQkMsS0FBRCxJQUNkO0FBQUE7QUFBQTtBQUFLQSxZQUFNQyxLQUFOLENBQVlDO0FBQWpCLENBRE47O0FBS0EsZUFBZUgsYUFBZiIsImZpbGUiOiJNb3ZpZUxpc3RJdGVtLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIE1vdmllTGlzdEl0ZW0gPSAocHJvcHMpID0+IChcbiAgICAgIDxsaT57cHJvcHMubW92aWUudGl0bGV9PC9saT5cbilcblxuXG5leHBvcnQgZGVmYXVsdCBNb3ZpZUxpc3RJdGVtOyAiXX0=
