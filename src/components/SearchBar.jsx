@@ -1,7 +1,7 @@
 var SearchBar = () => (
     <form>
-        <input type="text" name="text" class="search" placeholder="Search more movies"></input>
-        <input type="submit" name="submit" class="submit-btn" value="Search"></input>
+        <input type="text" className="search" placeholder="Search more movies"></input>
+        <input type="submit" className="submit-btn" value="Search"></input>
     </form>
 )
-export default SearchBar; 
+export default SearchBar;
