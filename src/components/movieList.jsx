@@ -1,11 +1,10 @@
 import Movielistitems from "./Movielistitem.js";
-    var Movielist = (props) => (
-      <div>
-          <Movielistitems movie={props.movie[0]}/>
-          <Movielistitems movie={props.movie[1]}/>
-          <Movielistitems movie={props.movie[2]}/>
-          <Movielistitems movie={props.movie[3]}/>
-          <Movielistitems movie={props.movie[4]}/>
-      </div>
-    )
+import MovieListItem from "./Movielistitem.js";
+var Movielist = (props) => (
+    <div>
+        {props.movie.map((movie)=> (
+            <MovieListItem movie={movie} />
+        ))}
+    </div>
+  )
 export default Movielist;
